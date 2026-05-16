@@ -1,0 +1,43 @@
+#brandName{
+    color:rgb(220, 99, 111);
+    font-weight: 600;
+}
+#navbar{
+    box-shadow: 2px 3px 3px grey;
+    background-color: rgb(47, 29, 29);
+    
+}
+
+#productTitle{
+   
+    font-weight: 700;
+    
+}
+#productDesc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.navbarButton {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f5f0e8;
+  background: rgb(200, 90, 101);
+  border: 2px solid rgb(80, 39, 43);
+  border-radius: 8px;
+  padding: 6px 14px;
+  transition: all 0.2s ease;
+}
+
+.navbarButton:hover {
+  background: rgba(220, 99, 111, 0.3);
+  border-color: rgba(220, 99, 111, 0.7);
+  color: #ffffff;
+}
+.cart-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
